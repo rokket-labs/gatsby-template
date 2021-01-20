@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "jsx": "react",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "public", ".cache"]
+}
